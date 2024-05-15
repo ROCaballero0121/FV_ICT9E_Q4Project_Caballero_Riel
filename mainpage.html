@@ -36,11 +36,47 @@
   background-size: cover;
   position: relative;
 }
-  nav a{
-    font-size: 20px;
-    color: white;
-    padding: 30px;
-  }
+  .navbar {
+    background-color: #000;
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.brand {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
 
   img{
     height: 200px;
@@ -62,7 +98,7 @@
 <body>
   <nav class="navbar">
         <div class="container">
-            <a href="#" class="brand">BrandName</a>
+            <a href="#" class="brand">Portfolio</a>
             <ul class="nav-links">
                 <li><a href="index.html">Login</a></li>
             </ul>
